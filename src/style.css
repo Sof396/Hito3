@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: #D9ADAD !important;
+    
+}
+
+#myBtn {
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: black; 
+    outline: black; 
+    background-color:##DDDDDD; 
+    color:black; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size : 18px; 
+}
+  
+ #myBtn:hover {
+    background-color: lightgray; 
+}
+#patata {
+    position: fixed; 
+    top: 40px; 
+    left: 50px; 
+    border: none; 
+    outline: none; 
+    background-color:##DDDDDD; 
+    color:black; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 4px; 
+    font-size : 18px; 
+}
+#patata:hover {
+    background-color: lightgray; 
+}
