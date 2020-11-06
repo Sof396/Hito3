@@ -8,7 +8,7 @@ function topFunction() {
 
 
 function patata() {
-  fetch('http://worldtimeapi.org/api/ip')
+  fetch('https://worldtimeapi.org/api/ip')
       .then(response => response.json())
       //.then(json => console.log(json))
       .then(function(response){
